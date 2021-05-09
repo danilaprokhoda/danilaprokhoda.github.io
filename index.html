@@ -168,9 +168,17 @@
 
                 <div class="contact__container bd-grid">
                     <form action="telegram.php" method="POST">
-                        <input type="text" placeholder="Name" name="name" class="contact__input">
-                        <input type="mail" placeholder="Email" name="email" class="contact__input">
-                        <textarea name="msg" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <legend>Заголовок формы</legend>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="" name="name" placeholder="Введите имя">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="" name="email" placeholder="Введите email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="msg" placeholder="введите сообщение"></textarea>
+                        </div>
                         <button type="submit" class="btn">Отправить форму</button>
                     </form>
                 </div>
