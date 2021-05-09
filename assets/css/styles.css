@@ -215,8 +215,8 @@ img{
 .home__img{
   position: absolute;
   right: 0;
-  bottom: -5;
-  width: 295px;
+  bottom: 0;
+  width: 300px;
 }
 
 /*BUTTONS*/
